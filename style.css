@@ -1,0 +1,39 @@
+/* page Essentials */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+  box-sizing: border-box;
+}
+
+/* body and background */
+body {
+  position: relative;
+  background-color: #333;
+
+  min-height: 100vh;
+}
+
+/* design of boxes */
+.box {
+  width: 100px;
+  height: 100px;
+  margin: var(--j);
+  border-radius: 8px;
+  box-shadow: 0 0 50px var(--c);
+  background-color: var(--c);
+  animation: rotate 3s ease-in-out infinite;
+}
+
+/* animation for the boxes */
+@keyframes rotate {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(180deg);
+    border-radius: 50%;
+  }
+}
