@@ -1,5 +1,5 @@
 # Animated_Boxes
-This is a simple snake game made by me, using JavaScript
+Simple animated boxes made using HTML and CSS. Easy to use it in your webPages
 
 ### It is easy to use inside your web pages.
 <hr>
